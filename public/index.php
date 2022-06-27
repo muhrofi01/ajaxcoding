@@ -33,6 +33,9 @@
                             <a href="#about" class="font-medium text-base text-slate-100 py-2 group-hover:font-bold nav-item">About</a>
                         </li>
                         <li class="group flex px-3">
+                            <a href="#product" class="font-medium text-base text-slate-100 py-2 group-hover:font-bold nav-item">Product</a>
+                        </li>
+                        <li class="group flex px-3">
                             <a href="#portfolio" class="font-medium text-base text-slate-100 py-2 group-hover:font-bold nav-item">Portfolio</a>
                         </li>
                         <li class="group flex px-3">
@@ -66,7 +69,7 @@
     <!-- end Home Section -->
 
     <!-- About Section -->
-    <section id="about" class="mt-24">
+    <section id="about" class="py-24">
         <div class="">
             <div class="w-[180px] h-[50px] -translate-y-[2px] bg-sky-900 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-10"></div>
             <div class="w-[180px] h-[50px] -translate-y-[2px] bg-sky-700 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-20 scale-x-[1.1]"></div>
@@ -84,7 +87,7 @@
                 <p class="text-base mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus animi laboriosam corrupti esse quia perspiciatis natus quasi molestiae quos quo.</p>
                 <div class="mt-4 flex justify-start">
                     <a target="_blank" href="https://www.instagram.com/ajaxcoding.id/"><span class="w-12 h-12 mr-4 border-[3px] border-slate-500 flex justify-center items-center rounded-full hover:border-sky-700"><i class="fab fa-instagram fa-2x"></i></span></a>
-                    <a href="" mailto=""><span class="w-12 h-12 mr-4 border-[3px] border-slate-500 flex justify-center items-center rounded-full hover:border-sky-700"><i class="fab fa-envelope fa-2x"></i></span></a>
+                    <a href="mailto:ajaxcodingid@gmail.com"><span class="w-12 h-12 mr-4 border-[3px] border-slate-500 flex justify-center items-center rounded-full hover:border-sky-700"><i class="fas fa-envelope fa-2x"></i></span></a>
                     <a target="_blank" href="https://wa.me/6289691077371"><span class="w-12 h-12 mr-4 border-[3px] border-slate-500 flex justify-center items-center rounded-full hover:border-sky-700"><i class="fab fa-whatsapp fa-2x"></i></span></a>
                 </div>
             </div>
@@ -93,8 +96,8 @@
     <!-- end About Section -->
 
     <!-- Product Section -->
-    <section id="product" class="mt-24">
-        <div>
+    <section id="product" class="bg-sky-200 py-24">
+        <div class="relative z-0">
             <div class="w-[220px] h-[50px] -translate-y-[2px] bg-sky-900 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-10"></div>
             <div class="w-[220px] h-[50px] -translate-y-[2px] bg-sky-700 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-20 scale-x-[1.1]"></div>
             <div class="w-[220px] h-[50px] -translate-y-[2px] bg-sky-500 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-30 scale-x-[1.2]"></div>
@@ -117,8 +120,8 @@
     <!-- end Product Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="mt-24">
-        <div class="">
+    <section id="portfolio" class="bg-sky-400 py-24">
+        <div class="relative z-0">
             <div class="w-[250px] h-[50px] -translate-y-[2px] bg-sky-900 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-10"></div>
             <div class="w-[250px] h-[50px] -translate-y-[2px] bg-sky-700 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-20 scale-x-[1.1]"></div>
             <div class="w-[250px] h-[50px] -translate-y-[2px] bg-sky-500 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-30 scale-x-[1.2]"></div>
@@ -141,7 +144,7 @@
     <!-- end Portfolio Section -->
 
      <!-- Contact Section -->
-     <section id="contact" class="mt-24">
+     <section id="contact" class="pt-24">
         <div class="">
             <div class="w-[220px] h-[50px] -translate-y-[2px] bg-sky-900 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-10"></div>
             <div class="w-[220px] h-[50px] -translate-y-[2px] bg-sky-700 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-20 scale-x-[1.1]"></div>

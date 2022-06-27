@@ -20,8 +20,12 @@ body{
     @apply text-slate-900 ;
 }
 
-.hamburger-line{
+.navbar-fixed .hamburger-line{
     @apply w-[30px] h-[2px] my-2 block bg-slate-700;
+}
+
+.hamburger-line{
+    @apply w-[30px] h-[2px] my-2 block bg-slate-100;
 }
 
 .hamburger-active > span:nth-child(1){
@@ -36,7 +40,7 @@ body{
     @apply -rotate-45;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
     #home{
         background-image: url('../../public/img/bg_home.png');
         background-size: cover;

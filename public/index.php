@@ -48,9 +48,9 @@
     <!-- Home Section -->
     <section id="home" class="w-full">
         <div>
-            <img src="img/bg_home.png" class="hidden md:block absolute -z-10 -translate-y-2" alt="">
+            <img src="img/bg_home.png" class="hidden lg:block absolute -z-10 -translate-y-2" alt="">
         </div>
-        <div class="w-full pt-20 mx-auto md:pt-0 md:flex items-center justify-between sm:w-[500px] md:w-[700px] lg:w-[950px] h-screen">
+        <div class="w-full pt-20 mx-auto md:flex items-center justify-between sm:w-[500px] md:w-[700px] lg:w-[950px]">
             <div class="text-center">
                 <h1 class="font-bold text-5xl text-slate-100">AjaxCoding</h1>
                 <p class="mt-3 text-slate-100">Kami bantu onlinekan bisnis Anda</p>
@@ -66,7 +66,7 @@
 
     <!-- About Section -->
     <section id="about" class="mt-24">
-        <div class="">
+        <div>
             <div class="w-[180px] h-[50px] -translate-y-[2px] bg-sky-900 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-10"></div>
             <div class="w-[180px] h-[50px] -translate-y-[2px] bg-sky-700 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-20 scale-x-[1.1]"></div>
             <div class="w-[180px] h-[50px] -translate-y-[2px] bg-sky-500 -skew-x-12 absolute left-1/2 -translate-x-1/2 -z-30 scale-x-[1.2]"></div>
@@ -75,9 +75,9 @@
         </div>
         <div class="w-full mt-8 px-6 m-auto">
            <div class="grid grid-cols-1 gap-2 m-auto sm:w-[600px] sm:grid-cols-3 md:w-[700px]">
-                <div class="w-full py-2 bg-slate-400 text-center rounded-full font-semibold hover:bg-sky-700 hover:text-slate-100">Invitation</div>
-                <div class="w-full py-2 bg-slate-400 text-center rounded-full font-semibold hover:bg-sky-700 hover:text-slate-100">Online Shop</div>
-                <div class="w-full py-2 bg-slate-400 text-center rounded-full font-semibold hover:bg-sky-700 hover:text-slate-100">Company Profile</div>
+                <div class="w-full py-2 bg-slate-400 text-center rounded-full font-semibold hover:bg-sky-300">Invitation</div>
+                <div class="w-full py-2 bg-slate-400 text-center rounded-full font-semibold hover:bg-sky-300">Online Shop</div>
+                <div class="w-full py-2 bg-slate-400 text-center rounded-full font-semibold hover:bg-sky-300">Company Profile</div>
            </div>
         </div>
         <div class="w-[850px] h-[300px] bg-slate-400 rounded-2xl m-auto mt-9 flex justify-evenly items-center">
@@ -123,38 +123,36 @@
         </div>
         <div class="relative">
             <div class="w-full h-[250px] bg-sky-700 absolute -z-10 bottom-0"></div>
-            <div class="px-4">
-                <div class="w-full mt-9 m-auto bg-sky-700 rounded-2xl sm:w-[500px] md:w-[700px]">
-                    <form action="" class="p-5 ">
-                        <div class="my-3">
-                            <label for="" class="text-slate-100">
-                                Nama
-                                <input class="w-full rounded-md p-1" type="text" name="name">
-                            </label>
-                        </div>
-                        <div class="my-3">
-                            <label for="" class="text-slate-100">
-                                Email
-                                <input class="w-full rounded-md p-1" type="email" name="email">
-                            </label>
-                        </div>
-                        <div class="my-3">
-                            <label for="" class="text-slate-100">
-                                No Telepon
-                                <input class="w-full rounded-md p-1" type="text" name="no-telp">
-                            </label>
-                        </div>
-                        <div class="my-3">
-                            <label for="" class="text-slate-100">
-                                Pesan
-                                <textarea name="pesan" id="pesan" class="w-full rounded-md" rows="5"></textarea>
-                            </label>
-                        </div>
-                        <div class="my-3">
-                            <input type="submit" class="w-full rounded-full bg-sky-300 hover:bg-sky-500 hover:cursor-pointer py-2" value="Submit">
-                        </div>
-                    </form>
-                </div>
+            <div class="w-full mt-9 m-auto bg-sky-700 rounded-2xl sm:w-[500px] md:w-[700px]">
+                <form action="" class="p-5 ">
+                    <div class="my-3">
+                        <label for="" class="text-slate-100">
+                            Nama
+                            <input class="w-full rounded-md p-1" type="text" name="name">
+                        </label>
+                    </div>
+                    <div class="my-3">
+                        <label for="" class="text-slate-100">
+                            Email
+                            <input class="w-full rounded-md p-1" type="email" name="email">
+                        </label>
+                    </div>
+                    <div class="my-3">
+                        <label for="" class="text-slate-100">
+                            No Telepon
+                            <input class="w-full rounded-md p-1" type="text" name="no-telp">
+                        </label>
+                    </div>
+                    <div class="my-3">
+                        <label for="" class="text-slate-100">
+                            Pesan
+                            <textarea name="pesan" id="pesan" class="w-full rounded-md" rows="5"></textarea>
+                        </label>
+                    </div>
+                    <div class="my-3">
+                        <input type="submit" class="w-full rounded-full bg-sky-300 hover:bg-sky-500 hover:cursor-pointer py-2" value="Submit">
+                    </div>
+                </form>
             </div>
         </div>
         <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0369A1" fill-opacity="1" d="M0,96L40,96C80,96,160,96,240,122.7C320,149,400,203,480,202.7C560,203,640,149,720,154.7C800,160,880,224,960,213.3C1040,203,1120,117,1200,106.7C1280,96,1360,160,1400,192L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg> -->

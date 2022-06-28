@@ -558,6 +558,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -614,12 +618,12 @@ video {
   z-index: -40;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .z-0 {
   z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .m-auto {
@@ -642,10 +646,6 @@ video {
 
 .mt-14 {
   margin-top: 3.5rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
 }
 
 .mt-9 {
@@ -888,9 +888,14 @@ video {
   background-color: rgb(125 211 252 / var(--tw-bg-opacity));
 }
 
-.bg-slate-300 {
+.bg-sky-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  background-color: rgb(186 230 253 / var(--tw-bg-opacity));
+}
+
+.bg-grayAjax {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
 .bg-slate-400 {
@@ -903,19 +908,32 @@ video {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.bg-slate-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-}
-
 .bg-sky-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(56 189 248 / var(--tw-bg-opacity));
 }
 
-.bg-sky-200 {
+.bg-blueformAjax {
   --tw-bg-opacity: 1;
-  background-color: rgb(186 230 253 / var(--tw-bg-opacity));
+  background-color: rgb(86 187 241 / var(--tw-bg-opacity));
+}
+
+.bg-blueNavAjax {
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 83 239 / var(--tw-bg-opacity));
+}
+
+.bg-blueoldAjax {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/img\/Union\.png\'\)\] {
+  background-image: url('/img/Union.png');
+}
+
+.bg-\[url\(\'img\/Union\.png\'\)\] {
+  background-image: url('img/Union.png');
 }
 
 .p-5 {
@@ -951,31 +969,36 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pt-20 {
   padding-top: 5rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
 .pt-24 {
   padding-top: 6rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -1132,14 +1155,9 @@ body{
   border-color: rgb(3 105 161 / var(--tw-border-opacity));
 }
 
-.hover\:bg-sky-300:hover {
+.hover\:bg-yellowAjax:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(125 211 252 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-sky-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
+  background-color: rgb(242 250 90 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:block {

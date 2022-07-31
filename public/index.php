@@ -5,8 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/output.css">
     <script src="https://kit.fontawesome.com/a92deab626.js" crossorigin="anonymous"></script>
+    <style>
+        .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+    </style>
     <title>AjaxCoding</title>
 </head>
 
@@ -147,24 +175,34 @@
                     Profile</div>
             </div>
         </div>
-        <div class="carousel w-[850px] h-[300px] m-auto">
-            <div class="image-container w-[850px] h-[300px] bg-slate-400 rounded-2xl m-auto mt-9 flex justify-evenly items-center"
-                id="imgs">
-                <div class="w-[250px] h-[250px] bg-slate-100 rounded-2xl"></div>
-                <div class="w-[250px] h-[250px] bg-slate-100 rounded-2xl"></div>
-                <div class="w-[250px] h-[250px] bg-slate-100 rounded-2xl"></div>
+        <!-- Swiper -->
+        
+
+            <div class="px-5">
+                <div class="image-container xl:w-[850px] lg:w-[750px] md:w-[650px] h-[300px] bg-slate-400 rounded-2xl m-auto mt-9 flex justify-evenly items-center px-7"
+                    id="imgs">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 1</div>
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 2</div>
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 3</div>
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 4</div>
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 5</div>
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 6</div>
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 7</div>
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 8</div>
+                                <div class="swiper-slide h-64 m-auto rounded-lg">Slide 9</div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                </div>
             </div>
-            <div class="flex items-center button-container">
-                <button class="mx-auto mt-4" id="left">
-                    <img src="img/icon/Arrow_1.png" width="20" alt="">
-                </button>
-                <button class="mx-auto mt-4" id="right">
-                    <img src="img/icon/Arrow_2.png" width="20" alt="">
-                </button>
-            </div>
-        </div>
     </section>
     <!-- end Product Section -->
+
+    
+        
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="py-24 w-100" style="background-image: url('img/Union.png'); background-size: 660px;">
@@ -262,6 +300,9 @@
     </section>
     <!-- end Contact Section -->
 
+
+    
+
     <!-- Footer -->
     <section class="py-8 bg-blueoldAjax"></section>
     <footer class="py-5 w-100 bg-blueoldAjax">
@@ -269,6 +310,23 @@
     </footer>
 
     <script src="js/navbar.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 </body>
 
 </html>
